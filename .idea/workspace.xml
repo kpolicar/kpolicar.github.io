@@ -19,9 +19,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="web.server" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="A:\Projects\PhpstormProjects\cita.rocks" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -31,7 +37,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615587706392</updated>
-      <workItem from="1615587708884" duration="536000" />
+      <workItem from="1615587708884" duration="1628000" />
     </task>
     <servers />
   </component>
@@ -43,9 +49,9 @@
       <screen x="0" y="0" width="3072" height="1240" />
     </state>
     <state x="783" y="367" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.3072.1240@0.0.3072.1240" timestamp="1615587930684" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1615587766039">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1615589343491">
       <screen x="0" y="0" width="3072" height="1240" />
     </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.3072.1240@0.0.3072.1240" timestamp="1615587766039" />
+    <state width="498" height="446" key="SwitcherDM/0.0.3072.1240@0.0.3072.1240" timestamp="1615589343491" />
   </component>
 </project>
