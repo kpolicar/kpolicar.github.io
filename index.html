@@ -1,37 +1,487 @@
-<!doctype html>
-<html class="no-js" lang="">
+
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <title></title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
+  <title>
+    Oryxbot - Albion Online Trade Mission Bot
+  </title>
 
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+  <meta name="description" content="Oryxbot is an undetected Albion Online Trade Mission bot compatible with the latest version of the game. Transport faction hearts and make silver effortlessly.">
+  <meta name="keywords" content="Albion, Online, Bot, Trade, Mission, Silver, Run, Route, Cheat, Hack, External, Game, Automate, Program">
+  <meta name="author" content="Oryxbot">
 
-  <meta name="theme-color" content="#fafafa">
+
+  <meta property="og:title" content="Oryxbot - Albion Online Trade Mission Bot" />
+  <meta name="og:description" content="Oryxbot is an undetected Albion Online Trade Mission bot compatible with the latest version of the game. Transport faction hearts and make silver effortlessly." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en" />
+  <meta property="og:url" content="/" />
+  <meta property="og:site_name" content="Oryxbot" />
+  <meta property="og:image" content="https://oryxbot.com/oryx_colored.png" />
+
+  <link rel="alternate"
+        hreflang="x-default"
+        href="https://oryxbot.com/en" />
+  <link rel="alternate"
+        hreflang="en"
+        href="https://oryxbot.com/en" />
+
+  <link rel="stylesheet" href="/css/app.css?id=6c39e4ed9dfeda62f632">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+
+  <meta property="og:video" content="/storage/videos/oryxbot_intro.mp4" />
+  <meta property="og:video:width" content="1920">
+  <meta property="og:video:height" content="1080">
 </head>
 
-<body style="margin: 0">
-<div style="display: flex; flex-wrap: wrap">
-  <img src="2.jpg" alt="" class="cell">
-  <img src="1.jpg" alt="" class="cell larger">
-  <img src="3.jpg" alt="" class="cell">
+<body class="leading-normal tracking-normal text-white gradient" style="font-family: 'Source Sans Pro', sans-serif;">
 
-  <img src="4.jpg" alt="" class="cell">
-  <img src="6.jpg" alt="" class="cell larger">
-  <img src="5.jpg" alt="" class="cell">
-</div>
+
+<nav id="header" class="fixed w-full z-30 top-0 text-gray-900 flex justify-between">
+
+  <div class="" style="flex-grow: 1;"></div>
+  <div class="container flex flex-wrap flex-columns xl:items-center justify-between mt-0 py-2">
+
+    <div class="flex justify-between lg:w-auto w-full">
+      <div class="pl-4 flex items-center">
+        <a class="toggleColour text-gray-900 no-underline hover:no-underline font-bold text-2xl lg:text-4xl"  href="https://oryxbot.com" aria-label="Home">
+          <svg version="1.0" xmlns="http://www.w3.org/2000/svg" class="mb-1 h-10 fill-current inline"
+               viewBox="0 0 700.000000 654.000000"
+               preserveAspectRatio="xMidYMid meet">
+            <g transform="translate(0.000000,654.000000) scale(0.100000,-0.100000)" stroke="none">
+              <path d="M2380 6331 c-41 -5 -95 -12 -120 -16 l-45 -8 95 -24 c589 -148 1015
+-364 1300 -659 105 -108 156 -173 225 -288 39 -64 54 -80 108 -110 306 -172
+452 -498 417 -931 -14 -168 -42 -305 -62 -305 -8 0 -9 26 -4 88 14 183 -27
+461 -94 641 -55 149 -145 292 -243 384 -42 39 -57 45 -57 24 0 -32 -228 -616
+-281 -718 -62 -119 -155 -213 -279 -281 -73 -40 -165 -74 -324 -118 -405 -113
+-699 -281 -978 -556 -179 -177 -306 -352 -413 -569 -146 -297 -205 -554 -205
+-892 0 -114 -4 -183 -10 -183 -13 0 -50 60 -118 193 -328 640 -389 1430 -166
+2130 47 148 134 343 217 490 358 630 974 1070 1632 1166 l120 18 -104 52
+c-174 88 -800 212 -561 213 -56 1 -366 -153 -551 -274 -673 -440 -1138 -1134
+-1293 -1933 -42 -214 -50 -316 -50 -595 0 -301 12 -423 64 -672 123 -583 393
+-1095 799 -1510 393 -404 806 -653 1311 -792 463 -128 997 -138 1465 -27 1091
+259 1937 1109 2214 2226 64 256 91 488 91 775 0 495 -101 933 -314 1360 -161
+322 -343 569 -608 826 -396 381 -893 646 -1428 759 -103 21 -414 65 -459 65
+-9 0 29 -24 84 -53 109 -58 158 -89 280 -181 89 -67 271 -241 325 -310 25 -32
+51 -51 90 -67 458 -188 856 -514 1134 -928 448 -668 560 -1555 296 -2351 -178
+-539 -492 -977 -932 -1301 -102 -75 -271 -179 -291 -179 -7 0 -42 26 -77 59
+-98 88 -200 150 -465 283 -389 196 -515 270 -598 351 -68 67 -87 108 -87 189
+0 50 7 77 31 128 61 130 149 191 289 198 213 11 397 -89 660 -357 126 -128
+156 -153 226 -189 106 -54 178 -72 289 -72 200 0 355 81 458 238 54 83 74 137
+86 227 23 185 -40 347 -194 800 -213 212 -300 341 -345 511 -24 94 -27 253 -6
+335 67 257 58 445 -31 627 -25 50 -49 92 -54 92 -5 0 -16 -15 -25 -32 -24 -46
+-74 -118 -82 -118 -4 0 -7 125 -7 278 0 222 -4 299 -18 385 -166 986 -796
+1627 -1742 1772 -115 18 -474 27 -585 16z m2065 -2991 c22 -16 60 -49 84 -75
+l43 -47 -6 -81 c-6 -71 -4 -87 14 -122 11 -21 20 -41 20 -44 0 -2 -25 -1 -55
+2 -97 10 -176 88 -214 211 -20 67 -37 209 -26 226 7 11 58 -15 140 -70z"></path>
+            </g>
+          </svg>
+            ORYXBOT
+              <span style="bottom: 5px" class="absolute inline-block bg-red-800 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2">in development</span>
+        </a>
+      </div>
+
+      <div class="block lg:hidden pr-4">
+        <button id="nav-toggle" class="flex items-center p-1 text-gray-900 hover:text-gray-800 border-none">
+          <svg class="fill-current h-6 w-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <div class="flex-grow lg:flex justify-end lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 bg-white lg:bg-transparent lg:text-gray-900 text-gray-900 p-4 lg:p-0 z-20" id="nav-content">
+      <ul class="list-reset lg:flex justify-end items-center">
+        <li class="xl:mr-3 m-1">
+          <a class="inline-block no-underline hover:text-gray-700 hover:text-underline xl:py-2 xl:px-4 p-2" href="https://oryxbot.com/install">Installation</a>
+        </li>
+        <li class="xl:mr-3 m-1">
+          <a class="inline-block no-underline hover:text-gray-700 hover:text-underline xl:py-2 xl:px-4 p-2" href="https://oryxbot.com/guide">Usage</a>
+        </li>
+        <li class="xl:mr-3 m-1">
+          <a class="inline-block no-underline hover:text-gray-800 hover:text-underline xl:py-2 xl:px-4 p-2" href="https://oryxbot.com/release/latest">What&#039;s new</a>
+        </li>
+        <li class="xl:mr-3 m-1">
+          <a class="inline-block no-underline hover:text-gray-800 hover:text-underline xl:py-2 xl:px-4 p-2" target="_blank" href="https://discord.com/invite/7CWSugkjnb">Discord</a>
+        </li>
+        <li class="xl:mr-3 m-1">
+          <a class="inline-block no-underline hover:text-gray-800 hover:text-underline xl:py-2 xl:px-4 p-2"
+             href="#pricing">Pricing</a>
+        </li>
+      </ul>
+      <div class="lg:ml-24 ml-0 py-4">
+        <a id="navAction"
+           href="https://dashboard.oryxbot.com/login"
+           rel="nofollow"
+           class="cursor-pointer mx-auto lg:mx-0 lg:mx-2 bg-black text-white font-bold rounded mt-4 lg:mt-0 py-2 px-4 pr-6 rounded-full shadow opacity-75 hover:opacity-100 hover:bg-gray-900 transition duration-300 group">
+          Login
+          <i class="fas fa-angle-right text-lg ml-2 -mr-2 transform group-hover:translate-x-2 duration-100"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div style="flex: 1" class="text-right">
+  </div>
+</nav>
+
+<header class="relative">
+  <canvas id="gradient-canvas">
+  </canvas>
+  <div class="pt-24 relative" style="background: url('https://oryxbot.com/hero.webp')  right  bottom no-repeat; background-size: contain;">
+    <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
+      <div class="z-10 flex  justify-start md:text-left  items-start text-center lg:py-24 pb-40 pt-5 w-full text-gray-900">
+
+        <div class="w-full lg:w-2/5">
+          <div class="flex flex-col">
+            <h1 class="uppercase tracking-loose w-full">The Albion Online Trade Mission Bot</h1>
+            <h2 class="my-4 text-5xl font-bold leading-tight">Plan your routes.<br>Make silver effortlessly.</h2>
+          </div>
+          <p class="leading-normal text-2xl mb-8">Your time is worth more. Run a faction heart trade mission once and allow Oryxbot to repeat.</p>
+          <a href="https://oryxbot.com/register"
+             class="inline-block mx-auto lg:mx-0 hover:underline bg-gray-900 text-gray-200 font-bold rounded mt-6 py-4 px-8 shadow-lg">
+            Sign up
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="relative -mt-12 lg:-mt-24">
+    <svg viewBox="0 0 1428 174" class="text-gray-900" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-2.000000, 44.000000)" fill="currentColor" fill-rule="nonzero">
+          <path d="M0,0 C90.7283404,0.927527913 147.912752,27.187927 291.910178,59.9119003 C387.908462,81.7278826 543.605069,89.334785 759,82.7326078 C469.336065,156.254352 216.336065,153.6679 0,74.9732496" opacity="0.100000001"></path>
+          <path d="M100,104.708498 C277.413333,72.2345949 426.147877,52.5246657 546.203633,45.5787101 C666.259389,38.6327546 810.524845,41.7979068 979,55.0741668 C931.069965,56.122511 810.303266,74.8455141 616.699903,111.243176 C423.096539,147.640838 250.863238,145.462612 100,104.708498 Z" opacity="0.100000001"></path>
+          <path d="M1046,51.6521276 C1130.83045,29.328812 1279.08318,17.607883 1439,40.1656806 L1439,120 C1271.17211,77.9435312 1140.17211,55.1609071 1046,51.6521276 Z" id="Path-4" opacity="0.200000003"></path>
+        </g>
+        <g transform="translate(-4.000000, 76.000000)" fill="currentColor" fill-rule="nonzero">
+          <path d="M0.457,34.035 C57.086,53.198 98.208,65.809 123.822,71.865 C181.454,85.495 234.295,90.29 272.033,93.459 C311.355,96.759 396.635,95.801 461.025,91.663 C486.76,90.01 518.727,86.372 556.926,80.752 C595.747,74.596 622.372,70.008 636.799,66.991 C663.913,61.324 712.501,49.503 727.605,46.128 C780.47,34.317 818.839,22.532 856.324,15.904 C922.689,4.169 955.676,2.522 1011.185,0.432 C1060.705,1.477 1097.39,3.129 1121.236,5.387 C1161.703,9.219 1208.621,17.821 1235.4,22.304 C1285.855,30.748 1354.351,47.432 1440.886,72.354 L1441.191,104.352 L1.121,104.031 L0.457,34.035 Z"></path>
+        </g>
+      </g>
+    </svg>
+  </div>
+
+  <div class="relative p-4 bg-gray-900"></div>
+</header>
+
+<main class="relative z-10">
+  <div class="anchor" id="features"></div>
+  <section class="bg-gray-900 py-8">
+
+
+    <div class="container mx-auto pt-4 pb-12">
+
+      <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-100">
+        Features
+      </h2>
+      <div class="w-full mb-4">
+        <div class="h-1 mx-auto gradient w-64 opacity-75 my-0 py-0 rounded-t"></div>
+      </div>
+
+      <div class="-mx-3 flex flex-wrap">
+        <div class="w-full md:w-1/2 lg:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+          <div class="flex-1 bg-gray-200 rounded-xl overflow-hidden shadow py-4 ">
+            <i class="fas fa-box-open text-gray-800 text-4xl ml-1 px-6 mt-6"></i>
+
+            <h2 class="w-full font-bold text-xl text-gray-800 px-6 mt-4">100% External</h2>
+            <p class="text-gray-600 text-base px-6 mb-5">
+              Oryxbot is a standalone, external program that does not hook into the Albion client in any way. There is little to no chance of getting banned using the new version of our bot.
+            </p>
+          </div>
+        </div>
+
+        <div class="w-full md:w-1/2 lg:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+          <div class="flex-1 bg-gray-200 rounded-xl overflow-hidden shadow py-4 ">
+            <i class="fas fa-mouse-pointer text-gray-800 text-4xl ml-1 px-6 mt-6"></i>
+
+            <h2 class="w-full font-bold text-xl text-gray-800 px-6 mt-4">Human-like Behavior</h2>
+            <p class="text-gray-600 text-base px-6 mb-5">
+              Simulating mouse and keyboard strokes with smooth, human-like movements makes the bot&#039;s behavior indistinguishable from human players.
+            </p>
+          </div>
+        </div>
+
+        <div class="w-full md:w-1/2 lg:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+          <div class="flex-1 bg-gray-200 rounded-xl overflow-hidden shadow py-4 ">
+            <i class="fas fa-sync text-gray-800 text-4xl ml-1 px-6 mt-6"></i>
+
+            <h2 class="w-full font-bold text-xl text-gray-800 px-6 mt-4">Regular Updates</h2>
+            <p class="text-gray-600 text-base px-6 mb-5">
+              Oryxbot is actively maintained and improved. We play Albion too, thus we are committed to make Oryxbot the best it can be - for you and for us!
+            </p>
+          </div>
+        </div>
+
+        <div class="w-full md:w-1/2 lg:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+          <div class="flex-1 bg-gray-200 rounded-xl overflow-hidden shadow py-4 ">
+            <i class="fas fa-coins text-gray-800 text-4xl ml-1 px-6 mt-6"></i>
+
+            <h2 class="w-full font-bold text-xl text-gray-800 px-6 mt-4">Profitable</h2>
+            <p class="text-gray-600 text-base px-6 mb-5">
+              Stop going through the grind that is Albion Online. Make up to ≈500k silver per hour depending on how many hearts you&#039;re moving!
+            </p>
+          </div>
+        </div>
+
+        <div class="w-full md:w-1/2 lg:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+          <div class="flex-1 bg-gray-200 rounded-xl overflow-hidden shadow py-4 ">
+            <i class="fas fa-code text-gray-800 text-4xl ml-1 px-6 mt-6"></i>
+
+            <h2 class="w-full font-bold text-xl text-gray-800 px-6 mt-4">Works Out Of The Box</h2>
+            <p class="text-gray-600 text-base px-6 mb-5">
+              You don&#039;t have to rely on foreign scripts to get the job done. Everything is built in-house and simply works!
+            </p>
+          </div>
+        </div>
+
+        <div class="w-full md:w-1/2 lg:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+          <div class="flex-1 bg-gray-200 rounded-xl overflow-hidden shadow py-4  rounded-b-none ">
+            <i class="fas fa-route text-gray-800 text-4xl ml-1 px-6 mt-6"></i>
+
+            <h2 class="w-full font-bold text-xl text-gray-800 px-6 mt-4">Customizable</h2>
+            <p class="text-gray-600 text-base px-6 mb-5">
+              Avoid those nasty gankers by recording your own trade mission routes. Run the route once and have Oryxbot repeat.
+            </p>
+          </div>
+          <div class="flex-none mt-auto bg-gray-200 rounded-b-xl rounded-t-none overflow-hidden shadow px-6 py-3">
+            <div class="flex items-center justify-start">
+              <span class="inline-block bg-gray-800 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2">in development</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+  <div class="anchor" id="presentation"></div>
+  <section class="bg-gray-100 py-8 pb-12 border-t-4 border-b-4 border-gray-500">
+    <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
+      Presentation
+    </h2>
+    <div class="w-full mb-4">
+      <div class="h-1 mx-auto gradient w-64 opacity-75 my-0 py-0 rounded-t"></div>
+    </div>
+    <p class="w-full my-2 text-xl leading-tight text-center text-gray-800">
+      Check out Oryxbot in action. This video was recorded while the staff was off eating lunch.<br>
+      Spend your time elsewhere, let Oryxbot do its thing.
+    </p>
+
+    <video title="Oryxbot Trade Mission Presentation Video"
+           poster="https://oryxbot.com/images/oryxbot_intro_poster.webp"
+           class="mx-auto mt-8 my-6 mb-3 rounded bg-gray-900 shadow-lg"
+           height="1920"
+           width="1080"
+           preload="metadata"
+           controls
+           loop
+           controlslist="nodownload"
+           disablePictureInPicture>
+      <source src="/storage/videos/oryxbot_intro.mp4" type="video/mp4" />
+    </video>
+
+    <p class="text-xs text-gray-600 text-center">
+      Oryxbot is no longer in BETA, this video is outdated and is subject to change - however, it does still reflect what Oryxbot does
+    </p>
+  </section>
+  <div class="anchor" id="pricing"></div>
+  <section class="bg-gray-900 py-8 pb-12">
+
+    <div class="container mx-auto px-2 pt-4 pb-2 text-gray-200">
+
+      <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center">Pricing</h2>
+      <div class="w-full mb-4">
+        <div class="h-1 mx-auto gradient w-64 opacity-75 my-0 py-0 rounded-t"></div>
+      </div>
+      <p class="w-full my-2 text-xl leading-tight text-center">
+        Oryxbot pricing follows a typical monthly subscription based model.<br>
+        Thank you for your support.
+      </p>
+
+      <div class="flex flex-col sm:flex-row justify-center pt-12 my-12 sm:my-4">
+
+        <div class="flex flex-col w-5/6 lg:w-1/3 xl:w-1/4 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-white mt-4">
+          <div class="flex-1 bg-white text-gray-600 rounded-t rounded-b-none overflow-hidden shadow">
+            <div class="w-full p-8 text-3xl font-bold text-center border-b-4 border-gray-500">
+              Free trial
+            </div>
+            <ul class="w-full text-center text-sm">
+              <li class="border-b py-4">3 days</li>
+              <li class="border-b py-4">Default routes</li>
+            </ul>
+          </div>
+          <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
+            <div class="w-full pt-6 text-3xl text-gray-600 font-bold text-center leading-none mb-2">
+              €0
+            </div>
+            <div class="flex items-center justify-center">
+              <a href="https://oryxbot.com/register"
+                 class="inline-block mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded mt-6 py-4 px-8 shadow-lg">
+                Sign up
+              </a>
+            </div>
+            <a href="https://oryxbot.com/free-trial" class="flex items-start justify-center text-gray-600 h-6 text-xs hover:underline h-16 pt-2 -mb-2">
+              Read more
+            </a>
+          </div>
+        </div>
+        <div class="flex flex-col w-5/6 lg:w-1/3 xl:w-1/4 mx-auto lg:mx-0 rounded-lg bg-white mt-4 sm:-mt-6 shadow-lg z-10 text-gray-800">
+          <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
+            <div class="w-full p-8 text-3xl font-bold text-center">Subscription</div>
+            <div class="h-1 w-full gradient my-0 py-0 rounded-t"></div>
+            <ul class="w-full text-center text-sm">
+              <li class="border-b py-4">1 month</li>
+              <li class="border-b py-4">Default routes</li>
+              <li class="border-b py-4 line-through">Custom routes</li>
+              <li class="border-b py-4 line-through">Statistics</li>
+            </ul>
+          </div>
+          <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
+            <div class="w-full pt-2 text-3xl font-bold text-center leading-none mb-2">
+              <div class="line-through text-xl text-red-800">
+                €20
+              </div>
+              <div class="mb-2 text-4xl">
+                €15
+              </div>
+              <div class="text-sm">first month</div>
+              <p class="flex items-end justify-center text-gray-600 text-xs mt-1">
+                <span>using promo code <strong>ORYXBOTV1</strong></span>
+              </p>
+            </div>
+
+            <div class="flex items-center justify-center">
+              <a href="https://oryxbot.com/register"
+                 class="inline-block mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded mt-6 py-4 px-8 shadow-lg">
+                Sign up
+              </a>
+            </div>
+            <p class="text-xs text-gray-600 text-center italic mt-2 h-12">
+              After your first month you will be transferred to the standard rate <strong>€20 per month</strong>.
+              You can cancel the subscription at any time.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+  </section>
+</main>
+
+<!-- Change the colour #f8fafc to match the previous section colour -->
+<svg class="wave-top" viewBox="0 0 1439 147" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g transform="translate(-1.000000, -14.000000)" fill-rule="nonzero">
+      <g class="wave" fill="#25282D">
+        <path d="M1440,84 C1383.555,64.3 1342.555,51.3 1317,45 C1259.5,30.824 1206.707,25.526 1169,22 C1129.711,18.326 1044.426,18.475 980,22 C954.25,23.409 922.25,26.742 884,32 C845.122,37.787 818.455,42.121 804,45 C776.833,50.41 728.136,61.77 713,65 C660.023,76.309 621.544,87.729 584,94 C517.525,105.104 484.525,106.438 429,108 C379.49,106.484 342.823,104.484 319,102 C278.571,97.783 231.737,88.736 205,84 C154.629,75.076 86.296,57.743 0,32 L0,0 L1440,0 L1440,84 Z"></path>
+      </g>
+      <g transform="translate(1.000000, 15.000000)" fill="#25282D">
+        <g transform="translate(719.500000, 68.500000) rotate(-180.000000) translate(-719.500000, -68.500000) ">
+          <path d="M0,0 C90.7283404,0.927527913 147.912752,27.187927 291.910178,59.9119003 C387.908462,81.7278826 543.605069,89.334785 759,82.7326078 C469.336065,156.254352 216.336065,153.6679 0,74.9732496" opacity="0.100000001"></path>
+          <path d="M100,104.708498 C277.413333,72.2345949 426.147877,52.5246657 546.203633,45.5787101 C666.259389,38.6327546 810.524845,41.7979068 979,55.0741668 C931.069965,56.122511 810.303266,74.8455141 616.699903,111.243176 C423.096539,147.640838 250.863238,145.462612 100,104.708498 Z" opacity="0.100000001"></path>
+          <path d="M1046,51.6521276 C1130.83045,29.328812 1279.08318,17.607883 1439,40.1656806 L1439,120 C1271.17211,77.9435312 1140.17211,55.1609071 1046,51.6521276 Z" opacity="0.200000003"></path>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
+
+<section class="container mx-auto text-center py-6 mb-12 px-4 lg:px-0 text-gray-900">
+
+  <h3 class="w-full my-2 text-5xl font-bold leading-tight text-center uppercase">We are back!</h3>
+  <div class="w-full mb-4">
+    <div class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
+  </div>
+
+  <h4 class="my-4 text-3xl leading-tight">
+    The <strong class="uppercase bold">first official release</strong> has just been posted! <br>Use the promocode <strong>ORYXBOTV1</strong> to get a 5€ discount for your first month!
+  </h4>
+
+  <a href="https://oryxbot.com/download"
+     rel="nofollow"
+     class="inline-block mx-auto lg:mx-0 hover:underline bg-gray-900 text-gray-200 font-bold rounded my-6 py-4 px-8 shadow-lg">
+    Download now!
+  </a>
+
+</section>
+<footer class="bg-white">
+  <div class="container mx-auto  px-8">
+
+    <div class="w-full flex flex-col md:flex-row justify-center py-6 pb-3">
+
+      <a class="text-gray-800 no-underline hover:no-underline font-bold text-2xl lg:text-4xl px-3 text-center md:text-right"  href="#">
+        <svg version="1.0" xmlns="http://www.w3.org/2000/svg" class="mb-1 h-8 fill-current inline"
+             viewBox="0 0 700.000000 654.000000"
+             preserveAspectRatio="xMidYMid meet">
+          <g transform="translate(0.000000,654.000000) scale(0.100000,-0.100000)" stroke="none">
+            <path d="M2380 6331 c-41 -5 -95 -12 -120 -16 l-45 -8 95 -24 c589 -148 1015
+-364 1300 -659 105 -108 156 -173 225 -288 39 -64 54 -80 108 -110 306 -172
+452 -498 417 -931 -14 -168 -42 -305 -62 -305 -8 0 -9 26 -4 88 14 183 -27
+461 -94 641 -55 149 -145 292 -243 384 -42 39 -57 45 -57 24 0 -32 -228 -616
+-281 -718 -62 -119 -155 -213 -279 -281 -73 -40 -165 -74 -324 -118 -405 -113
+-699 -281 -978 -556 -179 -177 -306 -352 -413 -569 -146 -297 -205 -554 -205
+-892 0 -114 -4 -183 -10 -183 -13 0 -50 60 -118 193 -328 640 -389 1430 -166
+2130 47 148 134 343 217 490 358 630 974 1070 1632 1166 l120 18 -104 52
+c-174 88 -800 212 -561 213 -56 1 -366 -153 -551 -274 -673 -440 -1138 -1134
+-1293 -1933 -42 -214 -50 -316 -50 -595 0 -301 12 -423 64 -672 123 -583 393
+-1095 799 -1510 393 -404 806 -653 1311 -792 463 -128 997 -138 1465 -27 1091
+259 1937 1109 2214 2226 64 256 91 488 91 775 0 495 -101 933 -314 1360 -161
+322 -343 569 -608 826 -396 381 -893 646 -1428 759 -103 21 -414 65 -459 65
+-9 0 29 -24 84 -53 109 -58 158 -89 280 -181 89 -67 271 -241 325 -310 25 -32
+51 -51 90 -67 458 -188 856 -514 1134 -928 448 -668 560 -1555 296 -2351 -178
+-539 -492 -977 -932 -1301 -102 -75 -271 -179 -291 -179 -7 0 -42 26 -77 59
+-98 88 -200 150 -465 283 -389 196 -515 270 -598 351 -68 67 -87 108 -87 189
+0 50 7 77 31 128 61 130 149 191 289 198 213 11 397 -89 660 -357 126 -128
+156 -153 226 -189 106 -54 178 -72 289 -72 200 0 355 81 458 238 54 83 74 137
+86 227 23 185 -40 347 -194 800 -213 212 -300 341 -345 511 -24 94 -27 253 -6
+335 67 257 58 445 -31 627 -25 50 -49 92 -54 92 -5 0 -16 -15 -25 -32 -24 -46
+-74 -118 -82 -118 -4 0 -7 125 -7 278 0 222 -4 299 -18 385 -166 986 -796
+1627 -1742 1772 -115 18 -474 27 -585 16z m2065 -2991 c22 -16 60 -49 84 -75
+l43 -47 -6 -81 c-6 -71 -4 -87 14 -122 11 -21 20 -41 20 -44 0 -2 -25 -1 -55
+2 -97 10 -176 88 -214 211 -20 67 -37 209 -26 226 7 11 58 -15 140 -70z"></path>
+          </g>
+        </svg> ORYXBOT
+      </a>
+      <p class="text-gray-700 px-3 text-center md:text-right border-r-0 border-b md:border-r md:border-b-0">
+        Copyright © 2023 Oryxbot<br>
+        <a href="https://oryxbot.com/terms" class="text-gray-600 hover:underline">
+          Terms of Service
+        </a><br>
+      </p>
+      <p class="text-gray-700 px-3 text-center md:text-right">
+        Albion Online® is a trademark of Sandbox Interactive © 2021<br>
+        Oryxbot is not in any way affiliated with Sandbox Interactive GmbH.
+      </p>
+    </div>
+  </div>
+
+
+</footer>
+
+<aside id="download-notification" class="text-white pr-6 py-4 border-0 rounded-lg bg-black fixed bottom-0 left-0 right-0 top-0 mx-2 md:mx-auto m-auto text-center w-auto z-10 hidden" style="opacity: 0.85; height: fit-content; width: fit-content">
+    <span class="inline-block align-middle mx-5 mr-8 font-bold">
+        <i class="fas fa-lock mr-3 mx-1 text-lg"></i>
+
+        Oryxbot is no longer publicly available!<br/>
+        To purchase the software, please contact staff in the Discord or via email:             <a href="mailto:support@oryxbot.com" class="font-bold text-gray-500">support@oryxbot.com</a>
+
+  </span>
+  <button id="download-notification-close" data-hide="#download-notification" class="absolute bg-transparent text-2xl font-semibold leading-none right-0 top-0 mt-4 mr-6 outline-none focus:outline-none">
+    <span>×</span>
+  </button>
+</aside>
+
+<script src="/js/app.js?id=ec9a26a3df45269b23e4"></script>
+<script data-skip-dnt="true" async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+<noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt=""/></noscript>
 </body>
 
 </html>

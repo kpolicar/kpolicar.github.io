@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d5ff189-32b4-4da0-9dd4-275227e0d753" name="Default Changelist" comment="" />
+    <list default="true" id="5d5ff189-32b4-4da0-9dd4-275227e0d753" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +21,14 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1pfwyVJwavnWHcQ0tKCBLaU28za" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -28,6 +46,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="A:\Projects\PhpstormProjects\cita.rocks" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="A:\Projects\PhpstormProjects\cita.rocks\storage\videos" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -37,21 +58,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615587706392</updated>
-      <workItem from="1615587708884" duration="1628000" />
+      <workItem from="1615587708884" duration="1942000" />
+      <workItem from="1615645200632" duration="15000" />
+      <workItem from="1681043646852" duration="529000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="783" y="367" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1615587930684">
-      <screen x="0" y="0" width="3072" height="1240" />
-    </state>
-    <state x="783" y="367" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.3072.1240@0.0.3072.1240" timestamp="1615587930684" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1615589343491">
-      <screen x="0" y="0" width="3072" height="1240" />
-    </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.3072.1240@0.0.3072.1240" timestamp="1615589343491" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
