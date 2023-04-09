@@ -9,6 +9,7 @@
       <change beforePath="$PROJECT_DIR$/4.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/5.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNAME" beforeDir="false" afterPath="$PROJECT_DIR$/CNAME" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -60,7 +61,7 @@
       <updated>1615587706392</updated>
       <workItem from="1615587708884" duration="1942000" />
       <workItem from="1615645200632" duration="15000" />
-      <workItem from="1681043646852" duration="529000" />
+      <workItem from="1681043646852" duration="642000" />
     </task>
     <servers />
   </component>
